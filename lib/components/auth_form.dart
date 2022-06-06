@@ -3,7 +3,7 @@
 import 'dart:io';
 
 import 'package:chat/components/user_image_picker.dart';
-import 'package:chat/model/auth_form_data.dart';
+import 'package:chat/core/model/auth_form_data.dart';
 import 'package:flutter/material.dart';
 
 class AuthForm extends StatefulWidget {
@@ -34,17 +34,20 @@ class _AuthFormState extends State<AuthForm> {
 
   void _submit() {
     final isValid = _formKey.currentState?.validate() ?? false;
+
     if (!isValid) return;
 
     if (_formData.image == null && _formData.isSignup) {
       return _showError('Imagem não selecionada. ');
     }
+    print('$_formData.email, $_formData.password');
+    print('$_formData.email, $_formData.password');
     widget.onSubmit(_formData);
   }
 
   @override
   Widget build(BuildContext context) {
-    final larguraForm = MediaQuery.of(context).size.width * 0.5;
+    final larguraForm = MediaQuery.of(context).size.width * 0.80;
     return Container(
       width: larguraForm,
       child: Card(
