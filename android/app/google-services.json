@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "667728800702",
+    "project_id": "chat-fluter-87795",
+    "storage_bucket": "chat-fluter-87795.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667728800702:android:5f1e0f0afbb8f9cf2127ef",
+        "android_client_info": {
+          "package_name": "com.joaquim.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "667728800702-d4btd0dtqur7ifjtjfqn05s8oilpk12f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwV4MGFZ6RlmcFX9PryEzPLxI49eGwefg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "667728800702-d4btd0dtqur7ifjtjfqn05s8oilpk12f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -22,17 +22,17 @@ class _AuthPageState extends State<AuthPage> {
           formData.email,
           formData.password,
         );
-        //print('${formData.name},${formData.email}, ${formData.password}d');
+        print('${formData.name},${formData.email}, ${formData.password}d');
       } else {
         //sinup
-        print('object');
+
         AuthServices().signup(
           formData.name,
           formData.email,
           formData.password,
           formData.image,
         );
-        // print('$formData.email, $formData.password');
+        print('$formData.name ,$formData.email, $formData.password');
       }
     } catch (e) {
       //tratar erro
