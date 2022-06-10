@@ -22,7 +22,6 @@ class _AuthPageState extends State<AuthPage> {
           formData.email,
           formData.password,
         );
-        print('${formData.name},${formData.email}, ${formData.password}d');
       } else {
         //sinup
 
@@ -32,7 +31,6 @@ class _AuthPageState extends State<AuthPage> {
           formData.password,
           formData.image,
         );
-        print('$formData.name ,$formData.email, $formData.password');
       }
     } catch (e) {
       //tratar erro
